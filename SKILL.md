@@ -59,7 +59,11 @@ URL
 ## 安装依赖
 
 ```bash
-pip install scrapling html2text --break-system-packages
+# 安装基础依赖（包含 fetchers）
+pip install "scrapling[fetchers]" html2text --break-system-packages
+
+# 安装浏览器依赖（首次使用需要执行）
+scrapling install
 ```
 
 ## 脚本路径
