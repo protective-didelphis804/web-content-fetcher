@@ -69,6 +69,7 @@ CONTENT_SELECTORS = [
     ".article-body",
     ".article-detail",         # 36kr
     ".article-holder",         # InfoQ
+    ".post_body",              # 163.com (NetEase)
     ".markdown-body",          # GitHub
     ".Post-RichText",          # Zhihu
     "#article_content",        # CSDN
