@@ -67,10 +67,13 @@ CONTENT_SELECTORS = [
     ".entry-content",
     ".article-content",
     ".article-body",
+    ".article-detail",         # 36kr
+    ".article-holder",         # InfoQ
     ".markdown-body",          # GitHub
     ".Post-RichText",          # Zhihu
     "#article_content",        # CSDN
     ".article-area",           # Juejin
+    ".ssa-article",            # Toutiao
     '[role="article"]',
     '[itemprop="articleBody"]',
 ]

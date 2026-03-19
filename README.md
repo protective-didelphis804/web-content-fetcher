@@ -125,10 +125,10 @@ URL 输入
 | 少数派 (sspai.com) | fast | ✅ | article 选择器命中 |
 | 博客园 (cnblogs.com) | fast | ✅ | 文章列表和正文 |
 | 知乎 (zhihu.com) | stealth | ✅ | 需有效 URL |
-| 36氪 (36kr.com) | fast | ⚠️ | 可提取但含导航噪音 |
-| 今日头条 (toutiao.com) | stealth | ⚠️ | JS 渲染，含导航噪音 |
-| InfoQ 中文 (infoq.cn) | stealth (auto) | ⚠️ | 可提取但含导航噪音 |
-| 网易 (163.com) | fast | ⚠️ | 需有效文章 URL |
+| 36氪 (36kr.com) | fast | ✅ | 需有效文章 URL |
+| 今日头条 (toutiao.com) | stealth | ✅ | JS 渲染，需有效文章 URL |
+| InfoQ 中文 (infoq.cn) | stealth (auto) | ✅ | 需有效文章 URL |
+| 网易 (163.com) | fast | ✅ | 需有效文章 URL |
 | 小红书 | - | ❌ | 需登录态 |
 
 ### 海外平台
