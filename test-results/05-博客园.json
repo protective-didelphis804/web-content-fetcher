@@ -1,7 +1,0 @@
-{
-  "url": "https://www.cnblogs.com/cate/python/",
-  "mode": "fast",
-  "selector": "article",
-  "content_length": 576,
-  "content": "[【原】Python+AI学习笔记（01）大模型调用准备工作 与 OpenAI库基础使用](https://www.cnblogs.com/iflytek/p/19722324)\n\n[ ![博主头像](https://pic.cnblogs.com/face/438252/20170205145127.png)](https://www.cnblogs.com/iflytek) 1 # Python + AI 准备工作： 2 # 1、在阿里百炼大模型服务平台注册账号，并登录激活 3 # 2、点击左侧菜单的“密钥管理”，创建APIKey 4 # 3、选择合适的模型，并点击左侧菜单的“模型用量”，开启“免费额度用完即停”，这样等到免费额度用完就停止使用，不会私下扣费 5 # 4 ... \n\n[{name:\"代码屠夫\"}](https://www.cnblogs.com/iflytek) 2026-03-15 22:33 [ 0 ](https://www.cnblogs.com/iflytek/p/19722324#commentform \"评论 0\") [ 1 ](javascript:void\\(0\\) \"推荐 1\") [ 44 ](https://www.cnblogs.com/iflytek/p/19722324 \"阅读 44\")"
-}
